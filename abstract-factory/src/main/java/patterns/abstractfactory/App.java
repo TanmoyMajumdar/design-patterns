@@ -55,7 +55,7 @@ public class App {
                 case IRON:
                     return new IronDoorFactory();
                 default:
-                    throw new IllegalArgumentException("DoorType not supported.");
+                    throw new IllegalArgumentException("doorType not supported.");
             }
         }
     }
