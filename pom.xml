@@ -2,6 +2,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<packaging>pom</packaging>
+	<modules>
+		<module>strategy</module>
+		<module>factory-method</module>
+		<module>abstract-factory</module>
+		<module>decorator</module>
+		<module>adapter</module>
+		<module>template-method</module>
+		<module>state</module>
+		<module>proxy</module>
+		<module>facade</module>
+		<module>command</module>
+		<module>composite</module>
+		<module>bridge</module>
+		<module>observer</module>
+		<module>builder</module>
+		<module>step-builder</module>
+		<module>step-builder</module>
+	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
