@@ -42,11 +42,6 @@ public class App {
                 .build();
         logger.info(thief.toString());
 
-
-
-
-
     }
-
 
 }
