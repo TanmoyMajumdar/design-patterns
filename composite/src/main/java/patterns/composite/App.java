@@ -1,6 +1,9 @@
 package patterns.composite;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  *
  * the composite pattern composes objects into tree structures to represent part whole hierarchies.
@@ -37,4 +40,22 @@ package patterns.composite;
 
 
 public class App {
+
+    private static final Logger logger = LoggerFactory.getLogger(App.class);
+
+
+    public static void main(String[] args) {
+        logger.info("message from ORCS: ");
+        LetterComposite orcMessage = new Messenger().messageFromOrcs();
+        orcMessage.print();
+
+
+        logger.info("\nmessage from the elves: ");
+
+        LetterComposite elfMessage = new Messenger().messageFromElves();
+        elfMessage.print();
+
+    }
+
+
 }
