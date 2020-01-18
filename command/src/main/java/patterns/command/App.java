@@ -28,6 +28,10 @@ package patterns.command;
 
 public class App {
 
+    /**
+     * client code
+     * @param args
+     */
 
     public static void main(String[] args) {
         Wizard wizard = new Wizard();

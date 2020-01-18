@@ -18,8 +18,6 @@
 		<module>bridge</module>
 		<module>observer</module>
 		<module>builder</module>
-		<module>step-builder</module>
-		<module>step-builder</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
