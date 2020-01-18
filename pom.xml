@@ -16,7 +16,6 @@
 		<module>command</module>
 		<module>composite</module>
 		<module>bridge</module>
-		<module>observer</module>
 		<module>builder</module>
 	</modules>
 	<parent>
