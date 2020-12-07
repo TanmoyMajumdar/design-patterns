@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 /**
  *
  * you have an object and instead of sending messages to the object(by method calling) and getting a object as a
- * response. decorator pattern is a way of saying that if i want to change the way the thing that returns or
+ * response, decorator pattern is a way of saying that if i want to change the way the thing that returns or
  * if i want to change the behavior of the method i could actually do that at runtime without changing the content
  * of the particular object.
  *
